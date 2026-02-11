@@ -101,8 +101,7 @@ footer {
 .fade-up.visible {
     opacity: 1;
     transform: translateY(0);
-}
-/* 🍔 MENU MOBILE */
+}/* 🍔 MENU MOBILE */
 .burger {
     display: none;
     font-size: 28px;
@@ -133,4 +132,5 @@ footer {
         top: 20px;
         right: 20px;
     }
+
 }
