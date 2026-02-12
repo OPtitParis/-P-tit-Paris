@@ -160,3 +160,13 @@ footer {
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
+.cta {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 32px;
+    background: #c9a24d;
+    color: #111;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
