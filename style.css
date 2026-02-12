@@ -178,3 +178,6 @@ footer {
     transform: translateY(-6px);
     box-shadow: 0 20px 35px rgba(0,0,0,0.12);
 }
+section {
+    border-bottom: 1px solid #eee;
+}
