@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -178,4 +183,5 @@ footer {
     transform: translateY(-6px);
     box-shadow: 0 20px 35px rgba(0,0,0,0.12);
 }
+
 
