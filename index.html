@@ -4,6 +4,91 @@
     <meta charset="UTF-8">
     <title>Ô P’tit Paris – Accueil</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* --- Styles de base --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            position: relative;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 28px;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+
+        /* --- Mobile --- */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+
+            nav ul.active {
+                display: flex;
+                background-color: #333;
+                position: absolute;
+                top: 50px;
+                right: 20px;
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f7f7f7;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,10 +98,13 @@
 </header>
 
 <nav>
-    <a href="index.html">Accueil</a>
-    <a href="menu.html">La Carte</a>
-    <a href="cocktails.html">Cocktails</a>
-    <a href="contact.html">Contact</a>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <ul id="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">La Carte</a></li>
+        <li><a href="cocktails.html">Cocktails</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </nav>
 
 <section>
@@ -31,8 +119,19 @@
     <p>© 2026 Ô P’tit Paris</p>
 </footer>
 
+<script>
+    // --- Menu Hamburger ---
+    const toggleButton = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
 </body>
 </html>
+
 
 
 
