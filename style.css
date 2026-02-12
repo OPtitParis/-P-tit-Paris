@@ -14,7 +14,7 @@
 /* Bannière */
 #banner {
     width: 100%;
-    height: 400px;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -263,6 +263,7 @@ nav ul li a:hover {
         display: block;
     }
 }
+
 
 
 
