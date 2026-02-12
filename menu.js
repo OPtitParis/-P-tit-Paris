@@ -11,12 +11,12 @@ const plats = [
     },
     {
         nom: "Pidé végétarien",
-        prix: "10€",
+        prix: "11€",
         description: "Pidé aux légumes frais et fromage."
     },
     {
         nom: "Pidé fromage",
-        prix: "12€",
+        prix: "10€",
         description: "Fromage fondant sur pâte maison."
     },
     {
@@ -81,3 +81,4 @@ function afficherMenu(liste, containerId) {
     });
 
 }
+
