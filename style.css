@@ -1,3 +1,8 @@
+#banner img {
+    width: 100%
+    height: auto
+    display: block
+}
 /* Logo */
 #logo {
     width: 120px;
@@ -258,6 +263,7 @@ nav ul li a:hover {
         display: block;
     }
 }
+
 
 
 
