@@ -1,7 +1,7 @@
 const plats = [
     {
         nom: "Lahmacun classique",
-        prix: "11€",
+        prix: "4€",
         description: "Viande hachée de bœuf, poivron, oignon, tomate, salade et citron."
     },
     {
@@ -79,4 +79,5 @@ function afficherMenu(liste, containerId) {
 
         container.appendChild(card);
     });
+
 }
