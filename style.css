@@ -106,6 +106,35 @@ nav ul li {
 nav ul li a {
     white-space: nowrap;
 }
+/* HAPPY HOUR */
+.happy-hour {
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+.happy-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.happy-item {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.happy-item h3 {
+    margin-bottom: 10px;
+}
+
+.happy-note {
+    margin-top: 20px;
+    font-style: italic;
+}
 
 
 
