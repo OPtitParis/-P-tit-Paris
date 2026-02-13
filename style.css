@@ -98,6 +98,15 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* CORRECTION MENU ACCUEIL VERTICAL */
+nav ul li {
+    display: inline-flex;
+}
+
+nav ul li a {
+    white-space: nowrap;
+}
+
 
 
 
